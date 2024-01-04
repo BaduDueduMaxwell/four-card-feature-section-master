@@ -111,7 +111,7 @@ h2 {
   text-align: center;
 }
 
-
+/* Tablet Screen */
 @media (max-width: 768px) {
   .layout-grid {
     display: flex;
@@ -123,6 +123,7 @@ h2 {
   }
 }
 
+/* Mobile Screen */
 @media (max-width: 640px) {
   :root {
     margin-inline: 10px;
