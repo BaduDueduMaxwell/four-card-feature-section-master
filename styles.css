@@ -111,6 +111,18 @@ h2 {
   text-align: center;
 }
 
+
+@media (max-width: 768px) {
+  .layout-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    max-width: 300px;
+  }
+}
+
 @media (max-width: 640px) {
   :root {
     margin-inline: 10px;
@@ -151,3 +163,4 @@ h2 {
     max-width: 300px;
   }
 }
+
